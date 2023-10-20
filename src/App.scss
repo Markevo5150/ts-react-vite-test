@@ -1,0 +1,75 @@
+.main-container {
+  margin: auto;
+  width: 400px;
+}
+.results {
+  background: var(--resultsGradient);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: var(--White);
+  font-weight: var(--normalFont);
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 22px;
+}
+.graphic {
+  width: 130px;
+  height: 130px;
+  background: var(--circleGradient);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  text-align: center;
+  justify-content: center;
+}
+.score {
+  color: var(--White);
+  font-size: 50px;
+  font-weight: var(--boldFont);
+}
+.total {
+  color: lightgray;
+  font-size: 13px;
+}
+.comments {
+  display: flex;
+  flex-direction: column;
+}
+.phrase {
+  color: var(--White);
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.info {
+  color: var(--White);
+  margin: 0 3.5rem 0 3.5rem;
+  text-align: center;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+.summaryTitle {
+  margin: 1.5rem;
+  font-weight: var(--boldFont);
+  font-size: 20px;
+}
+.btn {
+  width: 250px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: var(--DarkGrayBlue);
+  color: var(--White);
+  font-size: 16px;
+  font-weight: var(--boldFont);
+  margin: auto;
+}
